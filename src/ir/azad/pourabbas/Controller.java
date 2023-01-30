@@ -33,13 +33,13 @@ public class Secondary {
                 System.out.println("error: type in correctly");
         }*/
         Person person = new Person();
-        person.setAge(21);
         person.setName("Zeinab");
-        person.setAvg(17.26);
+        person.setAge(20);
+        person.setAvg(18.86);
         person.setMale(false);
         System.out.println(person.getName());
-        System.out.print(person.getAge()+"\n");
-        System.out.print(person.getAvg()+"\n");
-        System.out.print(person.isMale());
+        System.out.println(person.getAge());
+        System.out.println(person.getAvg());
+        System.out.println(person.isMale());
     }
 }
